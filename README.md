@@ -8,10 +8,10 @@ gcc -std=c99 -Wall -o msim msim.c
 
 Usage: ./msim <inputfile>
 
-Format of the inputfile:
-  a: simulates the malloc() function. First parameter is the number of bytes to allocate. second parameter is the reference to the block
-  f: simulates the free() function. First parameter is the reference to the block in which we are freeing
-  r: simulates the realloc() function. First parameter is the number of bytes to allocate. Second parameter is the reference to the block in which we are reallocating. Third parameter is the reference to the block after the realloction. 
+Format of the inputfile:<br />
+  a: simulates the malloc() function. First parameter is the number of bytes to allocate. second parameter is the reference to the block<br />
+  f: simulates the free() function. First parameter is the reference to the block in which we are freeing<br />
+  r: simulates the realloc() function. First parameter is the number of bytes to allocate. Second parameter is the reference to the block in which we are reallocating. Third parameter is the reference to the block after the realloction. <br />
   
 Use capital letters for the input while running the program.
 The results will output to output.txt
